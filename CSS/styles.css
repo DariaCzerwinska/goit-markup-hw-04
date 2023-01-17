@@ -279,7 +279,7 @@ h2 {
 }
 .image {
   width: 270px;
-  height: 368px;
+  height: 428px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -411,4 +411,16 @@ h2 {
   max-width: 1170px;
   margin: auto;
   padding-bottom: 94px;
+}
+.icon-header {
+  fill: black;
+}
+.icon:focus,
+.icon:hover {
+  fill: #2196f3;
+}
+.icons-social-media {
+  display: flex;
+  width: 206px;
+  height: 56px;
 }
