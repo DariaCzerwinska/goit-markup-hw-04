@@ -136,11 +136,10 @@ ul {
   color: #757575;
   text-decoration: none;
   margin-right: 50px;
+  display: flex;
+  align-items: center;
 }
-.mail-header:hover {
-  color: #2196f3;
-  text-decoration: none;
-}
+.mail-header:hover,
 .mail-header:focus {
   color: #2196f3;
   text-decoration: none;
@@ -199,12 +198,14 @@ h2 {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 30px;
 }
 .first-list-paragraph {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-top: 10px;
 }
 .our-team-header {
   font-weight: 500;
@@ -254,6 +255,7 @@ h2 {
 .contact-container {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 .contact {
   justify-content: flex-end;
@@ -329,10 +331,10 @@ h2 {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  display: flex;
+  align-items: center;
 }
-.phone:hover {
-  color: #2196f3;
-}
+.phone:hover,
 .phone:focus {
   color: #2196f3;
 }
@@ -413,18 +415,37 @@ h2 {
   padding-bottom: 94px;
 }
 .icon-header {
-  fill: black;
+  fill: rgba(117, 117, 117, 1);
+  padding-right: 10px;
 }
-.icon:focus,
-.icon:hover {
+.icon-header:focus,
+.icon-header:hover {
   fill: #2196f3;
 }
 .icons-social-media {
   display: flex;
   width: 206px;
-  height: 56px;
+  height: 44px;
   fill: black;
   justify-content: center;
+  padding-top: 26px;
+  margin: auto;
+  gap: 30px;
 }
-.icon-lorem {
+.div-lorem {
+  width: 270px;
+  height: 120px;
+  background-color: rgba(245, 244, 250, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.communicationiconsvg {
+  fill: #757575;
+}
+.mail-header:hover .communicationiconsvg {
+  fill: #2196f3;
+}
+.phone:hover .communicationiconsvg {
+  fill: #2196f3;
 }
