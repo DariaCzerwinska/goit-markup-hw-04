@@ -156,7 +156,7 @@ ul {
       rgba(47, 48, 58, 0.4) 0%,
       rgba(47, 48, 58, 0.4) 50%
     ),
-    url(/images/header.jpg);
+    url(../images/header.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
