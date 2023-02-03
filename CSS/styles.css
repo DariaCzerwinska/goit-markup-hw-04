@@ -151,12 +151,7 @@ ul {
   width: 1600px;
   height: 600px;
   margin: auto;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(47, 48, 58, 0.4) 0%,
-      rgba(47, 48, 58, 0.4) 50%
-    ),
-    url(../images/header.jpg);
+  background-image: url(/images/header.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
