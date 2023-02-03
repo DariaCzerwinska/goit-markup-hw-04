@@ -151,7 +151,7 @@ ul {
   width: 1600px;
   height: 600px;
   margin: auto;
-  background-image: url(/images/header.jpg);
+  background-image: url(../images/header.jpg);
   background-repeat: no-repeat;
   background-position: center;
 }
